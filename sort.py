@@ -9,7 +9,7 @@ def pivot_sort(arr):
     None: The list is sorted in place.
     """
     # Base case: if the list is empty or has one element, it is already sorted
-    if len(arr) <= 2:
+    if len(arr) <= 1:
         return
 
     # Choose the pivot element (middle element of the list)
